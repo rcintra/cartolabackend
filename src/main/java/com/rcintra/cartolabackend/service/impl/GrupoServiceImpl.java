@@ -1,9 +1,10 @@
 package com.rcintra.cartolabackend.service.impl;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
 
-import org.assertj.core.util.Lists;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,7 +27,15 @@ public class GrupoServiceImpl implements GrupoService {
 		if (iterable instanceof Collection) {
 			return (List<T>) iterable;
 		} else {
-			return Lists.newArrayList(iterable);
+			return copyIterator(iterable.iterator());
 		}
+	}
+	
+	private <T> List<T> copyIterator(Iterator<T> iter) {
+		List<T> copy = new ArrayList<T>();
+		while(iter.hasNext()) {
+			copy.add(iter.next());
+		}
+		return copy;
 	}
 }
