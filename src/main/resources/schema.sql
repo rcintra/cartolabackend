@@ -1,3 +1,4 @@
+drop sequence if exists hibernate_sequence;
 drop table if exists Campeonato;
 drop table if exists Time;
 drop table if exists Grupo;
@@ -5,6 +6,10 @@ drop table if exists Grupo_Time;
 drop table if exists Rodada;
 drop table if exists Rodada_Time;
 drop table if exists Camp_Grupo;
+
+CREATE SEQUENCE hibernate_sequence INCREMENT 1 MINVALUE 1 MAXVALUE 9223372036854775807 START 2 CACHE 1;
+ALTER TABLE hibernate_sequence OWNER TO ogkjifaresfizy;
+
 
 CREATE TABLE "Campeonato" (
 	"id" serial NOT NULL,
