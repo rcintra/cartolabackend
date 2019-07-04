@@ -15,7 +15,7 @@ public class CartolabackendApplication {
 		SpringApplication.run(CartolabackendApplication.class, args);
 	}
 	
-	@Bean
+	/*@Bean
 	ApplicationRunner applicationRunner(GrupoRepository grupoRepository) {
 		return args -> {
 			grupoRepository.save(new Grupo("Grupo 1"));
@@ -23,6 +23,6 @@ public class CartolabackendApplication {
 			grupoRepository.save(new Grupo("Grupo 3"));
 			grupoRepository.save(new Grupo("Grupo 4"));
 		};
-	}
+	}*/
 
 }
