@@ -20,6 +20,8 @@ public class CartolabackendApplication {
 		return args -> {
 			grupoRepository.save(new Grupo("Grupo 1"));
 			grupoRepository.save(new Grupo("Grupo 2"));
+			grupoRepository.save(new Grupo("Grupo 3"));
+			grupoRepository.save(new Grupo("Grupo 4"));
 		};
 	}
 
