@@ -1,0 +1,6 @@
+DROP TABLE Grupo IF EXISTS;
+
+CREATE TABLE Grupo (
+  id         INTEGER IDENTITY PRIMARY KEY,
+  nome VARCHAR(30),
+);
