@@ -1,10 +1,13 @@
 package com.rcintra.cartolabackend.model;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
@@ -41,8 +44,18 @@ public class Time{
 	@Column(name="time_id")
 	private Integer timeId; // id do cartola
 	
+	@ManyToMany(mappedBy="times")
+	private List<Grupo> grupos;
+	
+	public Time(String nome, String nomeTime, String slug, Integer timeId) {
+		this.nome = nome;
+		this.nomeTime = nomeTime;
+		this.slug = slug;
+		this.timeId = timeId;
+	}
+	
 	public Time(TimeDeserializer time) {
-		this(null, time.getNome(), time.getNome_cartola(), time.getSlug(), time.getTime_id());
+		this(time.getNome_cartola(), time.getNome(), time.getSlug(), time.getTime_id());
 	}
 	
 }

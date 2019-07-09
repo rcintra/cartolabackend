@@ -20,7 +20,10 @@ public class TimeService {
 	}
 	
 	public void save(List<Time> times) {
-		timeRepository.saveAll(times);
+		for (Time t : times) {
+			if (timeRepository.findTimeBySlug(t.getSlug()) == null)
+				timeRepository.save(t);
+		}
 	}
 	
 }
