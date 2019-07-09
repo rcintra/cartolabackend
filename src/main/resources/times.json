@@ -1,0 +1,1770 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \{\
+    "destaques": \{\
+        "lanterninha": \{\
+            "time_id": 19880981,\
+            "clube_id": 264,\
+            "esquema_id": 3,\
+            "globo_id": "5eb5be0c-733f-4074-9b94-47f3641e8fe7",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "nome": "Caf\'e9 Macali Fc",\
+            "nome_cartola": "Vitor Loli",\
+            "slug": "cafe-macali-fc",\
+            "tipo_escudo": 1,\
+            "cor_fundo_escudo": "ffffff",\
+            "cor_borda_escudo": "000000",\
+            "cor_primaria_estampa_escudo": "808080",\
+            "cor_secundaria_estampa_escudo": "000000",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/escudo/e7/18/51/005eb5be0c-733f-4074-9b94-47f3641e8fe720190426111851",\
+            "url_escudo_png": "https://s2.glbimg.com/ofSCs5UCjv7Tea3joksSH_jN3cg=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/escudo/e7/18/51/005eb5be0c-733f-4074-9b94-47f3641e8fe720190426111851",\
+            "url_camisa_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/camisa/e7/18/51/005eb5be0c-733f-4074-9b94-47f3641e8fe720190426111851",\
+            "url_camisa_png": "https://s2.glbimg.com/C6zsMSG3j_CfBNF80LjE9KXKuuI=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/camisa/e7/18/51/005eb5be0c-733f-4074-9b94-47f3641e8fe720190426111851",\
+            "tipo_estampa_escudo": 3,\
+            "tipo_adorno": 1,\
+            "tipo_camisa": 1,\
+            "tipo_estampa_camisa": 6,\
+            "cor_camisa": "ffffff",\
+            "cor_primaria_estampa_camisa": "808080",\
+            "cor_secundaria_estampa_camisa": "000000",\
+            "rodada_time_id": 7,\
+            "assinante": true,\
+            "cadastro_completo": true,\
+            "patrocinador1_id": 69,\
+            "patrocinador2_id": 66,\
+            "temporada_inicial": 2019,\
+            "simplificado": false,\
+            "sorteio_pro_num": null\
+        \},\
+        "mes": \{\
+            "time_id": 13950110,\
+            "clube_id": 275,\
+            "esquema_id": 3,\
+            "globo_id": "328ae9e3-bf33-44b6-86f6-84c5113b970f",\
+            "facebook_id": 507336719370690,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/507336719370690/picture?width=100&height=100",\
+            "nome": "Clube Atl\'e9tico Trov\'e3o sem Freio",\
+            "nome_cartola": "Hugo Cavallini",\
+            "slug": "clube-atletico-trovao-sem-freio",\
+            "tipo_escudo": 12,\
+            "cor_fundo_escudo": "0a6634",\
+            "cor_borda_escudo": "0a6634",\
+            "cor_primaria_estampa_escudo": "ffffff",\
+            "cor_secundaria_estampa_escudo": "000000",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_138/escudo/0f/24/24/00328ae9e3-bf33-44b6-86f6-84c5113b970f20190422132424",\
+            "url_escudo_png": "https://s2.glbimg.com/9TCjcZswRBc0xuxl8istsf-k1oc=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_138/escudo/0f/24/24/00328ae9e3-bf33-44b6-86f6-84c5113b970f20190422132424",\
+            "url_camisa_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_138/camisa/0f/31/28/00328ae9e3-bf33-44b6-86f6-84c5113b970f20190422133128",\
+            "url_camisa_png": "https://s2.glbimg.com/OFFFROMHuUUp9AHPsB_J7Rz_iJw=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_138/camisa/0f/31/28/00328ae9e3-bf33-44b6-86f6-84c5113b970f20190422133128",\
+            "tipo_estampa_escudo": 4,\
+            "tipo_adorno": 15,\
+            "tipo_camisa": 2,\
+            "tipo_estampa_camisa": 3,\
+            "cor_camisa": "0a6634",\
+            "cor_primaria_estampa_camisa": "ffffff",\
+            "cor_secundaria_estampa_camisa": "000000",\
+            "rodada_time_id": 10,\
+            "assinante": true,\
+            "cadastro_completo": true,\
+            "patrocinador1_id": 66,\
+            "patrocinador2_id": 69,\
+            "temporada_inicial": 2018,\
+            "simplificado": false,\
+            "sorteio_pro_num": null\
+        \},\
+        "patrimonio": \{\
+            "time_id": 14729117,\
+            "clube_id": 264,\
+            "esquema_id": 3,\
+            "globo_id": "5620adc8-3e72-48ff-9e71-460e22723829",\
+            "facebook_id": 623791907697334,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/623791907697334/picture?width=100&height=100",\
+            "nome": "Sport Club XXX de Fevereiro",\
+            "nome_cartola": "Rod",\
+            "slug": "sport-club-xxx-de-fevereiro",\
+            "tipo_escudo": 1,\
+            "cor_fundo_escudo": "ffffff",\
+            "cor_borda_escudo": "000000",\
+            "cor_primaria_estampa_escudo": "ffffff",\
+            "cor_secundaria_estampa_escudo": "000000",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/29/30/30/005620adc8-3e72-48ff-9e71-460e2272382920180413113030",\
+            "url_escudo_png": "https://s2.glbimg.com/Nonku0QacHWGzc15_Vw6hW9Kz4c=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/29/30/30/005620adc8-3e72-48ff-9e71-460e2272382920180413113030",\
+            "url_camisa_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/camisa/29/27/47/005620adc8-3e72-48ff-9e71-460e2272382920190426102747",\
+            "url_camisa_png": "https://s2.glbimg.com/7vz5Y6ovNVTjvc4jAbXtjujkgCE=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/camisa/29/27/47/005620adc8-3e72-48ff-9e71-460e2272382920190426102747",\
+            "tipo_estampa_escudo": 3,\
+            "tipo_adorno": 1,\
+            "tipo_camisa": 1,\
+            "tipo_estampa_camisa": 1,\
+            "cor_camisa": "ffffff",\
+            "cor_primaria_estampa_camisa": "ffffff",\
+            "cor_secundaria_estampa_camisa": "000000",\
+            "rodada_time_id": 9,\
+            "assinante": false,\
+            "cadastro_completo": true,\
+            "patrocinador1_id": 66,\
+            "patrocinador2_id": 68,\
+            "temporada_inicial": 2018,\
+            "simplificado": false,\
+            "sorteio_pro_num": null\
+        \},\
+        "rodada": \{\
+            "time_id": 223445,\
+            "clube_id": 276,\
+            "esquema_id": 3,\
+            "globo_id": "74d1096d-3df6-4d82-a05c-01f828760bfd",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "nome": "Osvald\'e3oo F.C.",\
+            "nome_cartola": "Lucas Gon\'e7alves",\
+            "slug": "osvaldaoo-f-c",\
+            "tipo_escudo": 1,\
+            "cor_fundo_escudo": "0066ff",\
+            "cor_borda_escudo": "063780",\
+            "cor_primaria_estampa_escudo": "063780",\
+            "cor_secundaria_estampa_escudo": "997a00",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/fd/19/38/0074d1096d-3df6-4d82-a05c-01f828760bfd20180410151938",\
+            "url_escudo_png": "https://s2.glbimg.com/O5hkmDO6FbiaSdMmRdys706cW-U=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/fd/19/38/0074d1096d-3df6-4d82-a05c-01f828760bfd20180410151938",\
+            "url_camisa_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_156/camisa/fd/40/24/0074d1096d-3df6-4d82-a05c-01f828760bfd20190601024024",\
+            "url_camisa_png": "https://s2.glbimg.com/K_AKDcFLD-tk64G3ruyxR1-E_QM=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_156/camisa/fd/40/24/0074d1096d-3df6-4d82-a05c-01f828760bfd20190601024024",\
+            "tipo_estampa_escudo": 3,\
+            "tipo_adorno": 1,\
+            "tipo_camisa": 2,\
+            "tipo_estampa_camisa": 6,\
+            "cor_camisa": "0066ff",\
+            "cor_primaria_estampa_camisa": "063780",\
+            "cor_secundaria_estampa_camisa": "997a00",\
+            "rodada_time_id": 9,\
+            "assinante": true,\
+            "cadastro_completo": true,\
+            "patrocinador1_id": 69,\
+            "patrocinador2_id": 59,\
+            "temporada_inicial": 2011,\
+            "simplificado": false,\
+            "sorteio_pro_num": null\
+        \}\
+    \},\
+    "liga": \{\
+        "liga_id": 207152,\
+        "time_dono_id": 372204,\
+        "clube_id": null,\
+        "nome": "O.C. CHAMPIONSHIP MADE IN RO\'c7A",\
+        "descricao": "Osvaldo Cruz, a Massachusetts Brasileira.",\
+        "slug": "o-c-championship-made-in-roca",\
+        "tipo": "A",\
+        "mata_mata": false,\
+        "editorial": false,\
+        "patrocinador": false,\
+        "criacao": "2016-05-10 10:49:55",\
+        "tipo_flamula": 1,\
+        "tipo_estampa_flamula": 2,\
+        "tipo_adorno_flamula": 3,\
+        "cor_primaria_estampa_flamula": "063780",\
+        "cor_secundaria_estampa_flamula": "063780",\
+        "cor_borda_flamula": "00b9ff",\
+        "cor_fundo_flamula": "ffffff",\
+        "url_flamula_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_150/flamula/52/17/00/0020715220190522181700",\
+        "url_flamula_png": "https://s2.glbimg.com/RK0EeuyLWyBu6KfULauv_qMB5j0=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_150/flamula/52/17/00/0020715220190522181700",\
+        "tipo_trofeu": null,\
+        "cor_trofeu": null,\
+        "url_trofeu_svg": null,\
+        "url_trofeu_png": null,\
+        "inicio_rodada": 1,\
+        "fim_rodada": null,\
+        "quantidade_times": null,\
+        "sorteada": false,\
+        "imagem": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/flamula.png",\
+        "mes_ranking_num": null,\
+        "mes_variacao_num": null,\
+        "camp_ranking_num": null,\
+        "camp_variacao_num": null,\
+        "capitao_ranking_num": null,\
+        "capitao_variacao_num": null,\
+        "total_times_liga": 45,\
+        "vagas_restantes": null,\
+        "total_amigos_na_liga": 0\
+    \},\
+    "membro": true,\
+    "pagina": 1,\
+    "time_dono": \{\
+        "time_id": 372204,\
+        "nome": "S. E. DElia",\
+        "nome_cartola": "M. Scolari DElia",\
+        "slug": "s-e-delia",\
+        "facebook_id": null,\
+        "url_escudo_png": "https://s2.glbimg.com/wJ7XswI1p-BHP_1q6shIOwtq96g=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/escudo/64/11/32/0013f2b2d1-9136-4de6-9ca1-01f12d370e6420190425151132",\
+        "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/escudo/64/11/32/0013f2b2d1-9136-4de6-9ca1-01f12d370e6420190425151132",\
+        "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+        "assinante": false\
+    \},\
+    "time_usuario": \{\
+        "url_escudo_png": "https://s2.glbimg.com/7VJZGGXS84l0lNNRiTYcEgtYhDQ=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/fa/04/39/0009d4ffe8-d0c3-42f2-b311-73ab7a111bfa20180323140439",\
+        "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/fa/04/39/0009d4ffe8-d0c3-42f2-b311-73ab7a111bfa20180323140439",\
+        "time_id": 8538597,\
+        "nome": "Sport Club R. C.",\
+        "nome_cartola": "Rafael Cintra",\
+        "slug": "sport-club-r-c",\
+        "facebook_id": null,\
+        "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+        "assinante": true,\
+        "patrimonio": 123.93,\
+        "ranking": \{\
+            "rodada": 13,\
+            "mes": 29,\
+            "turno": 33,\
+            "campeonato": 33,\
+            "patrimonio": 38,\
+            "capitao": null\
+        \},\
+        "pontos": \{\
+            "rodada": 88.509765625,\
+            "mes": 218.66000366210938,\
+            "turno": 517.5999755859375,\
+            "campeonato": 517.5999755859375,\
+            "capitao": 0\
+        \},\
+        "variacao": \{\
+            "mes": 3,\
+            "turno": 3,\
+            "campeonato": 3,\
+            "patrimonio": 3,\
+            "capitao": null\
+        \}\
+    \},\
+    "times": [\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/fmACzrSV-oaLMas8o_d9fXRGpzQ=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_106/escudo/08/20/03/008b50633d-6da9-443d-a7eb-32652d76410820180409102003",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_106/escudo/08/20/03/008b50633d-6da9-443d-a7eb-32652d76410820180409102003",\
+            "time_id": 3793824,\
+            "nome": "Gugashow10 F.C.",\
+            "nome_cartola": "Gustavo Kamei",\
+            "slug": "gugashow10-f-c",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": false,\
+            "patrimonio": 174.85,\
+            "ranking": \{\
+                "rodada": 16,\
+                "mes": 2,\
+                "turno": 1,\
+                "campeonato": 1,\
+                "patrimonio": 2,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 86.7001953125,\
+                "mes": 288.2799987792969,\
+                "turno": 724.6300048828125,\
+                "campeonato": 724.6300048828125,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -1,\
+                "turno": 0,\
+                "campeonato": 0,\
+                "patrimonio": 0,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/pLUCy9Gvyx0sEIgEx-ToFUqA04Y=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_139/escudo/92/31/28/003f1b42b3-1a89-4de1-9614-34d533aeb69220190423083128",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_139/escudo/92/31/28/003f1b42b3-1a89-4de1-9614-34d533aeb69220190423083128",\
+            "time_id": 19294811,\
+            "nome": "Danilando FC",\
+            "nome_cartola": "Danilo",\
+            "slug": "danilando-fc",\
+            "facebook_id": 1482351869,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/1482351869/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 159.66,\
+            "ranking": \{\
+                "rodada": 24,\
+                "mes": 6,\
+                "turno": 2,\
+                "campeonato": 2,\
+                "patrimonio": 7,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 79.7998046875,\
+                "mes": 265.8299865722656,\
+                "turno": 676.1799926757812,\
+                "campeonato": 676.1799926757812,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -3,\
+                "turno": 0,\
+                "campeonato": 0,\
+                "patrimonio": -1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/4YouHpUxDxy61gAyULvYcy4olTE=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/0e/35/32/00bc4ddd67-d435-422c-92c9-85865478580e20180412103532",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/0e/35/32/00bc4ddd67-d435-422c-92c9-85865478580e20180412103532",\
+            "time_id": 177147,\
+            "nome": "Netozadoo F.C",\
+            "nome_cartola": "Netozado",\
+            "slug": "netozadoo-f-c",\
+            "facebook_id": 608508252568654,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/608508252568654/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 159.2,\
+            "ranking": \{\
+                "rodada": 9,\
+                "mes": 9,\
+                "turno": 3,\
+                "campeonato": 3,\
+                "patrimonio": 8,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 94,\
+                "mes": 245.83999633789062,\
+                "turno": 661.7999877929688,\
+                "campeonato": 661.7999877929688,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 9,\
+                "turno": 0,\
+                "campeonato": 0,\
+                "patrimonio": -1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/9TCjcZswRBc0xuxl8istsf-k1oc=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_138/escudo/0f/24/24/00328ae9e3-bf33-44b6-86f6-84c5113b970f20190422132424",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_138/escudo/0f/24/24/00328ae9e3-bf33-44b6-86f6-84c5113b970f20190422132424",\
+            "time_id": 13950110,\
+            "nome": "Clube Atl\'e9tico Trov\'e3o sem Freio",\
+            "nome_cartola": "Hugo Cavallini",\
+            "slug": "clube-atletico-trovao-sem-freio",\
+            "facebook_id": 507336719370690,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/507336719370690/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 160.97,\
+            "ranking": \{\
+                "rodada": 2,\
+                "mes": 1,\
+                "turno": 4,\
+                "campeonato": 4,\
+                "patrimonio": 6,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 114.669921875,\
+                "mes": 310.3800048828125,\
+                "turno": 636.9600219726562,\
+                "campeonato": 636.9600219726562,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 1,\
+                "turno": 5,\
+                "campeonato": 5,\
+                "patrimonio": 5,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/-oATZsITxykFnqtB4Wkzzs_OefQ=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_135/escudo/7a/55/23/00ee292101-70eb-4f95-816e-50d13bee1e7a20190408205523",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_135/escudo/7a/55/23/00ee292101-70eb-4f95-816e-50d13bee1e7a20190408205523",\
+            "time_id": 502066,\
+            "nome": "Tribut\'e1rio FC",\
+            "nome_cartola": "Leandro Cabral",\
+            "slug": "tributario-fc",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": true,\
+            "patrimonio": 146.87,\
+            "ranking": \{\
+                "rodada": 4,\
+                "mes": 4,\
+                "turno": 5,\
+                "campeonato": 5,\
+                "patrimonio": 16,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 103,\
+                "mes": 272.2200012207031,\
+                "turno": 630.8499755859375,\
+                "campeonato": 630.8499755859375,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 4,\
+                "turno": 1,\
+                "campeonato": 1,\
+                "patrimonio": 2,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/pM-HGdtmxSyOiDWy6rTayqOwsvg=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_137/escudo/0a/32/39/002a338fe0-0ace-445b-8913-97d33dfbe60a20190417103239",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_137/escudo/0a/32/39/002a338fe0-0ace-445b-8913-97d33dfbe60a20190417103239",\
+            "time_id": 320655,\
+            "nome": "Mogiverpool WMF&E",\
+            "nome_cartola": "William Shanklopp Jr",\
+            "slug": "mogiverpool-wmf-e",\
+            "facebook_id": 1022719301126477,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/1022719301126477/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 168.53,\
+            "ranking": \{\
+                "rodada": 3,\
+                "mes": 3,\
+                "turno": 6,\
+                "campeonato": 6,\
+                "patrimonio": 3,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 103.7998046875,\
+                "mes": 284.70001220703125,\
+                "turno": 630,\
+                "campeonato": 630,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 1,\
+                "turno": 2,\
+                "campeonato": 2,\
+                "patrimonio": 0,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/oRuLvToERMo4XVYDIMI9OMSLr9Q=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/32/45/41/009f8afb5f-729b-4da5-b444-17283c40763220180322134541",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/32/45/41/009f8afb5f-729b-4da5-b444-17283c40763220180322134541",\
+            "time_id": 13930803,\
+            "nome": "B.G.A F.C",\
+            "nome_cartola": "Baga",\
+            "slug": "b-g-a-f-c",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": true,\
+            "patrimonio": 145.74,\
+            "ranking": \{\
+                "rodada": 6,\
+                "mes": 7,\
+                "turno": 7,\
+                "campeonato": 7,\
+                "patrimonio": 19,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 97.18994140625,\
+                "mes": 259.0899963378906,\
+                "turno": 611.0700073242188,\
+                "campeonato": 611.0700073242188,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 3,\
+                "turno": 5,\
+                "campeonato": 5,\
+                "patrimonio": 8,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/Krlv87k431X4Z7_4Crwj7zrtwYI=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/escudo/e6/32/56/00d460457f-6f70-44c4-bf12-1c20f03b95e620190425173256",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/escudo/e6/32/56/00d460457f-6f70-44c4-bf12-1c20f03b95e620190425173256",\
+            "time_id": 107911,\
+            "nome": "Zica do Pantano ZN",\
+            "nome_cartola": "Alan Loiola ",\
+            "slug": "zica-do-pantano-zn",\
+            "facebook_id": 704033666325642,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/704033666325642/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 152.98,\
+            "ranking": \{\
+                "rodada": 10,\
+                "mes": 5,\
+                "turno": 8,\
+                "campeonato": 8,\
+                "patrimonio": 12,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 92.9599609375,\
+                "mes": 271.2799987792969,\
+                "turno": 607.6199951171875,\
+                "campeonato": 607.6199951171875,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 0,\
+                "turno": 2,\
+                "campeonato": 2,\
+                "patrimonio": 1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/zhOJqGUYoGLpe2GRGouwLFk4yDI=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/5b/43/18/004b871008-3004-4b97-a8d6-b844f6c6355b20180404144318",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/5b/43/18/004b871008-3004-4b97-a8d6-b844f6c6355b20180404144318",\
+            "time_id": 3774748,\
+            "nome": "NardoniFC",\
+            "nome_cartola": "Thiago Costa",\
+            "slug": "nardonifc",\
+            "facebook_id": 10203830041020941,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/10203830041020941/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 157.89,\
+            "ranking": \{\
+                "rodada": 11,\
+                "mes": 8,\
+                "turno": 9,\
+                "campeonato": 9,\
+                "patrimonio": 9,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 92.66015625,\
+                "mes": 246.75999450683594,\
+                "turno": 606.9400024414062,\
+                "campeonato": 606.9400024414062,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 6,\
+                "turno": 2,\
+                "campeonato": 2,\
+                "patrimonio": 1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/M4lyAMEkGgY5vYbkYOGIe5vDY6I=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/47/58/55/004527c7ef-2068-4dab-8d1a-314f764c344720180322175855",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/47/58/55/004527c7ef-2068-4dab-8d1a-314f764c344720180322175855",\
+            "time_id": 6462067,\
+            "nome": "Mandi CEC",\
+            "nome_cartola": "Rafael Guimar\'e3es",\
+            "slug": "mandi-cec",\
+            "facebook_id": 607400899337459,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/607400899337459/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 162.47,\
+            "ranking": \{\
+                "rodada": 37,\
+                "mes": 11,\
+                "turno": 10,\
+                "campeonato": 10,\
+                "patrimonio": 4,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 66.39990234375,\
+                "mes": 243.5,\
+                "turno": 605.4199829101562,\
+                "campeonato": 605.4199829101562,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -5,\
+                "turno": -6,\
+                "campeonato": -6,\
+                "patrimonio": 0,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/wk2wbcHKh9wx4up8STW3SFV6JbE=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_106/escudo/a0/03/36/0046b0f851-dbcc-41e8-bc2e-3f4b2676bca020180408120336",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_106/escudo/a0/03/36/0046b0f851-dbcc-41e8-bc2e-3f4b2676bca020180408120336",\
+            "time_id": 4105737,\
+            "nome": "PhysiologyFC",\
+            "nome_cartola": "Bruno Del Bianco",\
+            "slug": "physiologyfc",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": false,\
+            "patrimonio": 140.99,\
+            "ranking": \{\
+                "rodada": 35,\
+                "mes": 19,\
+                "turno": 11,\
+                "campeonato": 11,\
+                "patrimonio": 27,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 69.02978515625,\
+                "mes": 232.0399932861328,\
+                "turno": 599,\
+                "campeonato": 599,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -10,\
+                "turno": -6,\
+                "campeonato": -6,\
+                "patrimonio": -5,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/0wRBI8UIlEVdE-v9_Asjv1seEzQ=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/da/28/51/00cef782ea-a46e-4daa-926a-900a1d6339da20180413092851",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/da/28/51/00cef782ea-a46e-4daa-926a-900a1d6339da20180413092851",\
+            "time_id": 377567,\
+            "nome": "Cortellini F.C",\
+            "nome_cartola": "Iago Cortellini",\
+            "slug": "cortellini-f-c",\
+            "facebook_id": 503191396453657,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/503191396453657/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 161.49,\
+            "ranking": \{\
+                "rodada": 33,\
+                "mes": 10,\
+                "turno": 12,\
+                "campeonato": 12,\
+                "patrimonio": 5,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 71.31005859375,\
+                "mes": 245.4499969482422,\
+                "turno": 598.8200073242188,\
+                "campeonato": 598.8200073242188,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -3,\
+                "turno": -5,\
+                "campeonato": -5,\
+                "patrimonio": 0,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/WZNQLZ-r3KFB_YT_tInNhKCi1jY=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_106/escudo/39/08/41/00b1815337-1ece-4d6e-aba3-e3e7171e803920180408190841",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_106/escudo/39/08/41/00b1815337-1ece-4d6e-aba3-e3e7171e803920180408190841",\
+            "time_id": 2464749,\
+            "nome": "GutaPalmeiras",\
+            "nome_cartola": "Luis Gustavo",\
+            "slug": "gutapalmeiras",\
+            "facebook_id": 651776421538784,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/651776421538784/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 141.02,\
+            "ranking": \{\
+                "rodada": 5,\
+                "mes": 12,\
+                "turno": 13,\
+                "campeonato": 13,\
+                "patrimonio": 26,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 101.72021484375,\
+                "mes": 242.2899932861328,\
+                "turno": 590.0599975585938,\
+                "campeonato": 590.0599975585938,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 10,\
+                "turno": 2,\
+                "campeonato": 2,\
+                "patrimonio": 4,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/G5FdmXXCadyNTilrYKWhW-IJhr8=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/f8/11/50/00d9e57e50-9907-4744-897f-94d564d09ef820180412141150",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/f8/11/50/00d9e57e50-9907-4744-897f-94d564d09ef820180412141150",\
+            "time_id": 56530,\
+            "nome": "P@RKS2019",\
+            "nome_cartola": "DANILO",\
+            "slug": "p-rks2019",\
+            "facebook_id": 10152367639519530,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/10152367639519530/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 146.77,\
+            "ranking": \{\
+                "rodada": 20,\
+                "mes": 15,\
+                "turno": 14,\
+                "campeonato": 14,\
+                "patrimonio": 17,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 82.52978515625,\
+                "mes": 240.17999267578125,\
+                "turno": 579.3499755859375,\
+                "campeonato": 579.3499755859375,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -3,\
+                "turno": 0,\
+                "campeonato": 0,\
+                "patrimonio": -3,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/XzflZQ_aKnJEH77D_kADMkbxRqA=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_112/escudo/d0/43/03/0049b6e63f-d964-4e48-ae3f-685dc73506d020180414134303",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_112/escudo/d0/43/03/0049b6e63f-d964-4e48-ae3f-685dc73506d020180414134303",\
+            "time_id": 2468830,\
+            "nome": "GGL - Galinha_Gamb\'e1_",\
+            "nome_cartola": "Glauco",\
+            "slug": "ggl-galinha-gamba",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": false,\
+            "patrimonio": 135.51,\
+            "ranking": \{\
+                "rodada": 32,\
+                "mes": 38,\
+                "turno": 15,\
+                "campeonato": 15,\
+                "patrimonio": 32,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 71.56005859375,\
+                "mes": 195.10000610351562,\
+                "turno": 572.6400146484375,\
+                "campeonato": 572.6400146484375,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -2,\
+                "turno": -2,\
+                "campeonato": -2,\
+                "patrimonio": -4,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/MGUdTvRVVKeyDQLUqYtSPylNtxc=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_101/escudo/c8/50/27/004117334b-2940-459b-88dd-c81de26f1ac820180323185027",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_101/escudo/c8/50/27/004117334b-2940-459b-88dd-c81de26f1ac820180323185027",\
+            "time_id": 1250008,\
+            "nome": "MulesquesFC",\
+            "nome_cartola": "Felipe Leite",\
+            "slug": "mulesquesfc",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": true,\
+            "patrimonio": 141.78,\
+            "ranking": \{\
+                "rodada": 15,\
+                "mes": 13,\
+                "turno": 16,\
+                "campeonato": 16,\
+                "patrimonio": 24,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 87.60009765625,\
+                "mes": 241.52000427246094,\
+                "turno": 571.239990234375,\
+                "campeonato": 571.239990234375,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 3,\
+                "turno": 1,\
+                "campeonato": 1,\
+                "patrimonio": 2,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/rwy0NSWxkGrVUqd-33bQK8Cf83Q=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_144/escudo/6b/48/30/00115d55d5-1f07-4607-9042-f506eff6f76b20190427174830",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_144/escudo/6b/48/30/00115d55d5-1f07-4607-9042-f506eff6f76b20190427174830",\
+            "time_id": 4968583,\
+            "nome": "Palo Alto S.C.",\
+            "nome_cartola": "Vin\'edcius Loli",\
+            "slug": "palo-alto-s-c",\
+            "facebook_id": 280317938804867,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/280317938804867/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 145.74,\
+            "ranking": \{\
+                "rodada": 21,\
+                "mes": 20,\
+                "turno": 17,\
+                "campeonato": 17,\
+                "patrimonio": 18,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 82.5,\
+                "mes": 232,\
+                "turno": 569.969970703125,\
+                "campeonato": 569.969970703125,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 1,\
+                "turno": -1,\
+                "campeonato": -1,\
+                "patrimonio": -2,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/BeWVWTMsf3DqIHdb4VcILG_LA20=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_123/escudo/5e/09/25/00db0f0dd0-ede5-4369-945a-60bf1aab6e5e20180811130925",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_123/escudo/5e/09/25/00db0f0dd0-ede5-4369-945a-60bf1aab6e5e20180811130925",\
+            "time_id": 3101649,\
+            "nome": "Flamengo80 FC",\
+            "nome_cartola": "Marcio Pitta",\
+            "slug": "flamengo80-fc",\
+            "facebook_id": 529586003816550,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/529586003816550/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 157.16,\
+            "ranking": \{\
+                "rodada": 17,\
+                "mes": 14,\
+                "turno": 18,\
+                "campeonato": 18,\
+                "patrimonio": 10,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 86.5,\
+                "mes": 240.5800018310547,\
+                "turno": 566.0599975585938,\
+                "campeonato": 566.0599975585938,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 1,\
+                "turno": 1,\
+                "campeonato": 1,\
+                "patrimonio": -2,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/O5hkmDO6FbiaSdMmRdys706cW-U=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/fd/19/38/0074d1096d-3df6-4d82-a05c-01f828760bfd20180410151938",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/fd/19/38/0074d1096d-3df6-4d82-a05c-01f828760bfd20180410151938",\
+            "time_id": 223445,\
+            "nome": "Osvald\'e3oo F.C.",\
+            "nome_cartola": "Lucas Gon\'e7alves",\
+            "slug": "osvaldaoo-f-c",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": true,\
+            "patrimonio": 142.9,\
+            "ranking": \{\
+                "rodada": 1,\
+                "mes": 16,\
+                "turno": 19,\
+                "campeonato": 19,\
+                "patrimonio": 23,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 115.2001953125,\
+                "mes": 236,\
+                "turno": 563.219970703125,\
+                "campeonato": 563.219970703125,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 21,\
+                "turno": 10,\
+                "campeonato": 10,\
+                "patrimonio": 6,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/wJ7XswI1p-BHP_1q6shIOwtq96g=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/escudo/64/11/32/0013f2b2d1-9136-4de6-9ca1-01f12d370e6420190425151132",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/escudo/64/11/32/0013f2b2d1-9136-4de6-9ca1-01f12d370e6420190425151132",\
+            "time_id": 372204,\
+            "nome": "S. E. DElia",\
+            "nome_cartola": "M. Scolari DElia",\
+            "slug": "s-e-delia",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": false,\
+            "patrimonio": 134.67,\
+            "ranking": \{\
+                "rodada": 12,\
+                "mes": 21,\
+                "turno": 20,\
+                "campeonato": 20,\
+                "patrimonio": 33,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 89.7998046875,\
+                "mes": 225.3800048828125,\
+                "turno": 559.989990234375,\
+                "campeonato": 559.989990234375,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 4,\
+                "turno": 2,\
+                "campeonato": 2,\
+                "patrimonio": 3,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/Fg22kUkvVVN1jcWs95yDtuuEJjE=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/f0/49/06/002b8cbb49-a798-4fe4-abaf-761500ae1af020180405124906",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/f0/49/06/002b8cbb49-a798-4fe4-abaf-761500ae1af020180405124906",\
+            "time_id": 167380,\
+            "nome": "DANGRL",\
+            "nome_cartola": "DANILO  LEITE",\
+            "slug": "dangrl",\
+            "facebook_id": 1197244086954490,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/1197244086954490/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 140.07,\
+            "ranking": \{\
+                "rodada": 27,\
+                "mes": 33,\
+                "turno": 21,\
+                "campeonato": 21,\
+                "patrimonio": 28,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 76.08984375,\
+                "mes": 202.27000427246094,\
+                "turno": 558.4199829101562,\
+                "campeonato": 558.4199829101562,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 2,\
+                "turno": -3,\
+                "campeonato": -3,\
+                "patrimonio": -3,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/DMYHijFBBg7TeMrN2X_Fgm5slQw=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/cb/50/16/000dc0a7b3-3a56-4483-b327-34d4086942cb20180406105016",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_105/escudo/cb/50/16/000dc0a7b3-3a56-4483-b327-34d4086942cb20180406105016",\
+            "time_id": 3768924,\
+            "nome": "Magicsrp",\
+            "nome_cartola": "Pedro moraes",\
+            "slug": "magicsrp",\
+            "facebook_id": 616838571744556,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/616838571744556/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 149.74,\
+            "ranking": \{\
+                "rodada": 14,\
+                "mes": 30,\
+                "turno": 22,\
+                "campeonato": 22,\
+                "patrimonio": 14,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 88.419921875,\
+                "mes": 216.27999877929688,\
+                "turno": 558.2000122070312,\
+                "campeonato": 558.2000122070312,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 4,\
+                "turno": 1,\
+                "campeonato": 1,\
+                "patrimonio": 1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/08wPVs0QFqyHweBfdC_7msm2bpY=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/33/45/22/00b8d5b720-dc6a-4b09-a58d-7f62e77bf03320180411104522",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/33/45/22/00b8d5b720-dc6a-4b09-a58d-7f62e77bf03320180411104522",\
+            "time_id": 1177121,\
+            "nome": "leandromk",\
+            "nome_cartola": "Leandro",\
+            "slug": "leandromk",\
+            "facebook_id": 4102511459162,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/4102511459162/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 130.63,\
+            "ranking": \{\
+                "rodada": 28,\
+                "mes": 40,\
+                "turno": 23,\
+                "campeonato": 23,\
+                "patrimonio": 36,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 75.89990234375,\
+                "mes": 192.89999389648438,\
+                "turno": 552.3099975585938,\
+                "campeonato": 552.3099975585938,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -2,\
+                "turno": -3,\
+                "campeonato": -3,\
+                "patrimonio": 1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/Eo_7Gs0z6pySHdd3dx2UFo3SK5o=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_106/escudo/2a/10/53/00d730d411-1825-415c-814d-3b3029f96d2a20180409111053",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_106/escudo/2a/10/53/00d730d411-1825-415c-814d-3b3029f96d2a20180409111053",\
+            "time_id": 3521423,\
+            "nome": "Sport Club Caras",\
+            "nome_cartola": "Dennis Bosso",\
+            "slug": "sport-club-caras",\
+            "facebook_id": 747834878584696,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/747834878584696/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 145.58,\
+            "ranking": \{\
+                "rodada": 19,\
+                "mes": 28,\
+                "turno": 24,\
+                "campeonato": 24,\
+                "patrimonio": 20,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 85.47021484375,\
+                "mes": 218.97999572753906,\
+                "turno": 552.030029296875,\
+                "campeonato": 552.030029296875,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 0,\
+                "turno": 1,\
+                "campeonato": 1,\
+                "patrimonio": 0,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/fniDhfFloB5HZ00g3eHlJM3MyEQ=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/17/15/26/000ee7b8b0-d285-4978-9a76-82b4280dcd1720180326141526",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_102/escudo/17/15/26/000ee7b8b0-d285-4978-9a76-82b4280dcd1720180326141526",\
+            "time_id": 192797,\
+            "nome": "Kibada Total",\
+            "nome_cartola": "Said_Dido",\
+            "slug": "kibada-total",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": true,\
+            "patrimonio": 152.24,\
+            "ranking": \{\
+                "rodada": 25,\
+                "mes": 18,\
+                "turno": 25,\
+                "campeonato": 25,\
+                "patrimonio": 13,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 78,\
+                "mes": 232.67999267578125,\
+                "turno": 545.1799926757812,\
+                "campeonato": 545.1799926757812,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -5,\
+                "turno": -1,\
+                "campeonato": -1,\
+                "patrimonio": -1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/2pnSDRZnc80IP5QQCgjavrfPe9A=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_104/escudo/d9/11/30/0088ffeaee-a93d-44a4-be51-b33a87443dd920180402111130",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_104/escudo/d9/11/30/0088ffeaee-a93d-44a4-be51-b33a87443dd920180402111130",\
+            "time_id": 14262518,\
+            "nome": "corinthiansramires",\
+            "nome_cartola": "junior ramires",\
+            "slug": "corinthiansramires",\
+            "facebook_id": 672910076103140,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/672910076103140/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 134.29,\
+            "ranking": \{\
+                "rodada": 34,\
+                "mes": 32,\
+                "turno": 26,\
+                "campeonato": 26,\
+                "patrimonio": 35,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 69.39990234375,\
+                "mes": 202.97999572753906,\
+                "turno": 542.5,\
+                "campeonato": 542.5,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -5,\
+                "turno": -5,\
+                "campeonato": -5,\
+                "patrimonio": -1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/J2wV2hGp_8CzQ-o_at69H7p3ZlI=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/23/32/03/00ab532ba6-08cf-416a-bcb9-e055b128e62320180409233203",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_107/escudo/23/32/03/00ab532ba6-08cf-416a-bcb9-e055b128e62320180409233203",\
+            "time_id": 59477,\
+            "nome": "Real Viola FC",\
+            "nome_cartola": "M1T0",\
+            "slug": "real-viola-fc",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": false,\
+            "patrimonio": 147.89,\
+            "ranking": \{\
+                "rodada": 8,\
+                "mes": 24,\
+                "turno": 27,\
+                "campeonato": 27,\
+                "patrimonio": 15,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 94.7900390625,\
+                "mes": 223.6999969482422,\
+                "turno": 541.8099975585938,\
+                "campeonato": 541.8099975585938,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 9,\
+                "turno": 3,\
+                "campeonato": 3,\
+                "patrimonio": 2,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/ztRlJry7muiLyi45wc2bzkUwOt4=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_133/escudo/27/02/28/00f0b23bd2-3cf4-41f3-9c52-ecae31c3112720190402130228",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_133/escudo/27/02/28/00f0b23bd2-3cf4-41f3-9c52-ecae31c3112720190402130228",\
+            "time_id": 18253,\
+            "nome": "Castor Troy S.C.",\
+            "nome_cartola": "Fran\'e7a Lopes",\
+            "slug": "castor-troy-s-c",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": true,\
+            "patrimonio": 144.16,\
+            "ranking": \{\
+                "rodada": 26,\
+                "mes": 17,\
+                "turno": 28,\
+                "campeonato": 28,\
+                "patrimonio": 21,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 76.22021484375,\
+                "mes": 235.8000030517578,\
+                "turno": 536.9299926757812,\
+                "campeonato": 536.9299926757812,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -6,\
+                "turno": -2,\
+                "campeonato": -2,\
+                "patrimonio": 0,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/5FcFIeDzTLIe8s-5Jpya2z-Tavo=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_138/escudo/f7/49/00/004e3a29fb-f951-4a5b-b161-753c209133f720190422174900",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_138/escudo/f7/49/00/004e3a29fb-f951-4a5b-b161-753c209133f720190422174900",\
+            "time_id": 2305350,\
+            "nome": "Turra FC",\
+            "nome_cartola": "Renato Turra Bueno",\
+            "slug": "turra-fc",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": false,\
+            "patrimonio": 143.93,\
+            "ranking": \{\
+                "rodada": 30,\
+                "mes": 31,\
+                "turno": 29,\
+                "campeonato": 29,\
+                "patrimonio": 22,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 74.31005859375,\
+                "mes": 214.42999267578125,\
+                "turno": 533.030029296875,\
+                "campeonato": 533.030029296875,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -8,\
+                "turno": -2,\
+                "campeonato": -2,\
+                "patrimonio": -3,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/MDaO3ubwEejQ_4VR2TbAEm3gBI4=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/9a/30/42/00c9ba5baf-41ed-46f5-8751-22d5bedade9a20180323133042",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/9a/30/42/00c9ba5baf-41ed-46f5-8751-22d5bedade9a20180323133042",\
+            "time_id": 4845444,\
+            "nome": "MPitta FC",\
+            "nome_cartola": "Marco Pitta",\
+            "slug": "mpitta-fc",\
+            "facebook_id": 741523182535855,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/741523182535855/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 135.9,\
+            "ranking": \{\
+                "rodada": 36,\
+                "mes": 27,\
+                "turno": 30,\
+                "campeonato": 30,\
+                "patrimonio": 31,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 66.4599609375,\
+                "mes": 220.07000732421875,\
+                "turno": 522.0999755859375,\
+                "campeonato": 522.0999755859375,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -10,\
+                "turno": -2,\
+                "campeonato": -2,\
+                "patrimonio": 1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/HtjwOevTyeQf62kJjEI7geY5B2o=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_133/escudo/5f/27/47/00b915b052-ec9c-4eb1-9322-f7fb3a3baa5f20190402152747",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_133/escudo/5f/27/47/00b915b052-ec9c-4eb1-9322-f7fb3a3baa5f20190402152747",\
+            "time_id": 14435170,\
+            "nome": "ODFFC",\
+            "nome_cartola": "Pablo Marani",\
+            "slug": "odffc",\
+            "facebook_id": 4055850451865,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/4055850451865/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 154.93,\
+            "ranking": \{\
+                "rodada": 22,\
+                "mes": 26,\
+                "turno": 31,\
+                "campeonato": 31,\
+                "patrimonio": 11,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 82.39990234375,\
+                "mes": 220.17999267578125,\
+                "turno": 521.8099975585938,\
+                "campeonato": 521.8099975585938,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -2,\
+                "turno": 1,\
+                "campeonato": 1,\
+                "patrimonio": -2,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/Nonku0QacHWGzc15_Vw6hW9Kz4c=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/29/30/30/005620adc8-3e72-48ff-9e71-460e2272382920180413113030",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_109/escudo/29/30/30/005620adc8-3e72-48ff-9e71-460e2272382920180413113030",\
+            "time_id": 14729117,\
+            "nome": "Sport Club XXX de Fevereiro",\
+            "nome_cartola": "Rod",\
+            "slug": "sport-club-xxx-de-fevereiro",\
+            "facebook_id": 623791907697334,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/623791907697334/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 182.28,\
+            "ranking": \{\
+                "rodada": 18,\
+                "mes": 25,\
+                "turno": 32,\
+                "campeonato": 32,\
+                "patrimonio": 1,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 86.39990234375,\
+                "mes": 221.22999572753906,\
+                "turno": 521.4099731445312,\
+                "campeonato": 521.4099731445312,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 1,\
+                "turno": 2,\
+                "campeonato": 2,\
+                "patrimonio": 0,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/7VJZGGXS84l0lNNRiTYcEgtYhDQ=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/fa/04/39/0009d4ffe8-d0c3-42f2-b311-73ab7a111bfa20180323140439",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_100/escudo/fa/04/39/0009d4ffe8-d0c3-42f2-b311-73ab7a111bfa20180323140439",\
+            "time_id": 8538597,\
+            "nome": "Sport Club R. C.",\
+            "nome_cartola": "Rafael Cintra",\
+            "slug": "sport-club-r-c",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": true,\
+            "patrimonio": 123.93,\
+            "ranking": \{\
+                "rodada": 13,\
+                "mes": 29,\
+                "turno": 33,\
+                "campeonato": 33,\
+                "patrimonio": 38,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 88.509765625,\
+                "mes": 218.66000366210938,\
+                "turno": 517.5999755859375,\
+                "campeonato": 517.5999755859375,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 3,\
+                "turno": 3,\
+                "campeonato": 3,\
+                "patrimonio": 3,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/_VRDGtlScud2XBqXzvTPjjljU_8=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_117/escudo/25/56/28/00adb75de4-cf24-4412-bf5c-18f5b7fe6c2520180505145628",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_117/escudo/25/56/28/00adb75de4-cf24-4412-bf5c-18f5b7fe6c2520180505145628",\
+            "time_id": 8296690,\
+            "nome": "MWFLU",\
+            "nome_cartola": "Welerson",\
+            "slug": "mwflu",\
+            "facebook_id": 344944312511456,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/344944312511456/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 117.65,\
+            "ranking": \{\
+                "rodada": 42,\
+                "mes": 35,\
+                "turno": 34,\
+                "campeonato": 34,\
+                "patrimonio": 42,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 63.02001953125,\
+                "mes": 196.75,\
+                "turno": 515.469970703125,\
+                "campeonato": 515.469970703125,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 0,\
+                "turno": 0,\
+                "campeonato": 0,\
+                "patrimonio": 0,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/SSkIxWaIesCjn20iq57WEUBXkg0=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_113/escudo/80/51/33/00f3b52d2e-4f3d-4e5f-bb47-5be11597f08020180416225133",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_113/escudo/80/51/33/00f3b52d2e-4f3d-4e5f-bb47-5be11597f08020180416225133",\
+            "time_id": 14631488,\
+            "nome": "M. Kalil Futbol ",\
+            "nome_cartola": "M. Kalil",\
+            "slug": "m-kalil-futbol",\
+            "facebook_id": 742970189057498,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/742970189057498/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 141.37,\
+            "ranking": \{\
+                "rodada": 29,\
+                "mes": 22,\
+                "turno": 35,\
+                "campeonato": 35,\
+                "patrimonio": 25,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 74.509765625,\
+                "mes": 224.72999572753906,\
+                "turno": 508.0299987792969,\
+                "campeonato": 508.0299987792969,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -2,\
+                "turno": 0,\
+                "campeonato": 0,\
+                "patrimonio": -1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/AOTuAaEb_93IxaQO7q_TgcXxGS4=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_113/escudo/01/32/42/00cd6b253a-72c2-4f4a-9cee-c4e266021d0120180416013242",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_113/escudo/01/32/42/00cd6b253a-72c2-4f4a-9cee-c4e266021d0120180416013242",\
+            "time_id": 980588,\
+            "nome": "Coringao Pira F C",\
+            "nome_cartola": "Ivan",\
+            "slug": "coringao-pira-f-c",\
+            "facebook_id": 1815383498748362,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/1815383498748362/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 119.54,\
+            "ranking": \{\
+                "rodada": 41,\
+                "mes": 37,\
+                "turno": 36,\
+                "campeonato": 36,\
+                "patrimonio": 40,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 63.18994140625,\
+                "mes": 195.97000122070312,\
+                "turno": 505.510009765625,\
+                "campeonato": 505.510009765625,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -7,\
+                "turno": -5,\
+                "campeonato": -5,\
+                "patrimonio": 0,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/hYdtymWdAZKrNA0h_fSZvPk2ygE=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_155/escudo/9c/53/37/000595e7d2-9de2-4c5b-a293-33058185079c20190526215337",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_155/escudo/9c/53/37/000595e7d2-9de2-4c5b-a293-33058185079c20190526215337",\
+            "time_id": 13979059,\
+            "nome": "RaLFoR",\
+            "nome_cartola": "Rafael Borguetti",\
+            "slug": "ralfor",\
+            "facebook_id": 774651085886747,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/774651085886747/picture?width=100&height=100",\
+            "assinante": true,\
+            "patrimonio": 134.67,\
+            "ranking": \{\
+                "rodada": 31,\
+                "mes": 23,\
+                "turno": 37,\
+                "campeonato": 37,\
+                "patrimonio": 34,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 72.2099609375,\
+                "mes": 223.74000549316406,\
+                "turno": 498.6600036621094,\
+                "campeonato": 498.6600036621094,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -4,\
+                "turno": 1,\
+                "campeonato": 1,\
+                "patrimonio": 1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/qT93-c288V24rd6fHYafjWspSbY=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_106/escudo/ba/50/11/00e2de178f-1df8-4176-a903-ebcc85abd2ba20180409105011",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_106/escudo/ba/50/11/00e2de178f-1df8-4176-a903-ebcc85abd2ba20180409105011",\
+            "time_id": 870083,\
+            "nome": "EC Jah Era",\
+            "nome_cartola": "Flavio Luiz Perez",\
+            "slug": "ec-jah-era",\
+            "facebook_id": 610960058985612,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/610960058985612/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 119.5,\
+            "ranking": \{\
+                "rodada": 40,\
+                "mes": 36,\
+                "turno": 38,\
+                "campeonato": 38,\
+                "patrimonio": 41,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 63.31005859375,\
+                "mes": 196.44000244140625,\
+                "turno": 491.2900085449219,\
+                "campeonato": 491.2900085449219,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -7,\
+                "turno": -1,\
+                "campeonato": -1,\
+                "patrimonio": -2,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/FEo3I0FehvVUdXG0p4rrPI9nTyg=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/b2/18/53/009eecf835-da0c-4d78-b4f5-7937e151c6b220180412081853",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_108/escudo/b2/18/53/009eecf835-da0c-4d78-b4f5-7937e151c6b220180412081853",\
+            "time_id": 9142969,\
+            "nome": "TIO AFRO F.C",\
+            "nome_cartola": "TIAGO DANELUCI",\
+            "slug": "tio-afro-f-c",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": false,\
+            "patrimonio": 139.59,\
+            "ranking": \{\
+                "rodada": 44,\
+                "mes": 42,\
+                "turno": 39,\
+                "campeonato": 39,\
+                "patrimonio": 29,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 49.1298828125,\
+                "mes": 159.5399932861328,\
+                "turno": 485.510009765625,\
+                "campeonato": 485.510009765625,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -3,\
+                "turno": -6,\
+                "campeonato": -6,\
+                "patrimonio": -6,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/RBCg8H5K-wbjdNT6JxkxN3uCQrs=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/97/46/11/00f9281bc5-1d1b-4c6b-bad7-21782714b59720180413164611",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_110/escudo/97/46/11/00f9281bc5-1d1b-4c6b-bad7-21782714b59720180413164611",\
+            "time_id": 2244203,\
+            "nome": "S.E.R@sta",\
+            "nome_cartola": "Jos\'e9 Heitor Kosicki",\
+            "slug": "s-e-r-sta",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": true,\
+            "patrimonio": 130.6,\
+            "ranking": \{\
+                "rodada": 38,\
+                "mes": 45,\
+                "turno": 40,\
+                "campeonato": 40,\
+                "patrimonio": 37,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 63.5,\
+                "mes": 130.7100067138672,\
+                "turno": 462.760009765625,\
+                "campeonato": 462.760009765625,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -1,\
+                "turno": -1,\
+                "campeonato": -1,\
+                "patrimonio": -4,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/m6MadujPZuSr276QQHpYbmTH4Y0=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_143/escudo/35/22/38/00a9aa2ff9-48ee-46fa-836f-cafb481cfe3520190427092238",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_143/escudo/35/22/38/00a9aa2ff9-48ee-46fa-836f-cafb481cfe3520190427092238",\
+            "time_id": 191804,\
+            "nome": "voivodic",\
+            "nome_cartola": "Voivodic, Rafael",\
+            "slug": "voivodic",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": true,\
+            "patrimonio": 136.47,\
+            "ranking": \{\
+                "rodada": 23,\
+                "mes": 41,\
+                "turno": 41,\
+                "campeonato": 41,\
+                "patrimonio": 30,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 80.18994140625,\
+                "mes": 179.9499969482422,\
+                "turno": 459.6300048828125,\
+                "campeonato": 459.6300048828125,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 1,\
+                "turno": -1,\
+                "campeonato": -1,\
+                "patrimonio": 1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/8UM3H3kgTbTR9Y6zF4zsUtIZSyE=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_138/escudo/70/30/06/005d359b8d-a0e1-40d4-ac3b-50c7fd77487020190422223006",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_138/escudo/70/30/06/005d359b8d-a0e1-40d4-ac3b-50c7fd77487020190422223006",\
+            "time_id": 5729192,\
+            "nome": "JULIO ARRUDA F.C.",\
+            "nome_cartola": "JULIO",\
+            "slug": "julio-arruda-f-c",\
+            "facebook_id": 514382568671670,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/514382568671670/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 106.98,\
+            "ranking": \{\
+                "rodada": 39,\
+                "mes": 39,\
+                "turno": 42,\
+                "campeonato": 42,\
+                "patrimonio": 45,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 63.320068359375,\
+                "mes": 193.66000366210938,\
+                "turno": 440.3500061035156,\
+                "campeonato": 440.3500061035156,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -8,\
+                "turno": -1,\
+                "campeonato": -1,\
+                "patrimonio": -2,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/acEpXhFAxMJsh38qy2JIYBEn2A4=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_139/escudo/9c/33/31/00f56336de-70f4-4e02-8792-5521142bc99c20190423173331",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_139/escudo/9c/33/31/00f56336de-70f4-4e02-8792-5521142bc99c20190423173331",\
+            "time_id": 19373614,\
+            "nome": "BetoBaga",\
+            "nome_cartola": "Roberto Bagarollo",\
+            "slug": "betobaga",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": true,\
+            "patrimonio": 108.12,\
+            "ranking": \{\
+                "rodada": 7,\
+                "mes": 34,\
+                "turno": 43,\
+                "campeonato": 43,\
+                "patrimonio": 44,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 95.4599609375,\
+                "mes": 199.86000061035156,\
+                "turno": 406.739990234375,\
+                "campeonato": 406.739990234375,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 6,\
+                "turno": 1,\
+                "campeonato": 1,\
+                "patrimonio": 0,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/ofSCs5UCjv7Tea3joksSH_jN3cg=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/escudo/e7/18/51/005eb5be0c-733f-4074-9b94-47f3641e8fe720190426111851",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_141/escudo/e7/18/51/005eb5be0c-733f-4074-9b94-47f3641e8fe720190426111851",\
+            "time_id": 19880981,\
+            "nome": "Caf\'e9 Macali Fc",\
+            "nome_cartola": "Vitor Loli",\
+            "slug": "cafe-macali-fc",\
+            "facebook_id": null,\
+            "foto_perfil": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/perfil.png",\
+            "assinante": true,\
+            "patrimonio": 121.1,\
+            "ranking": \{\
+                "rodada": 45,\
+                "mes": 44,\
+                "turno": 44,\
+                "campeonato": 44,\
+                "patrimonio": 39,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 33.6298828125,\
+                "mes": 133.58999633789062,\
+                "turno": 389.5400085449219,\
+                "campeonato": 389.5400085449219,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": -3,\
+                "turno": -2,\
+                "campeonato": -2,\
+                "patrimonio": -1,\
+                "capitao": null\
+            \}\
+        \},\
+        \{\
+            "url_escudo_png": "https://s2.glbimg.com/n2j5TYf7BccAQ9vh8n0Rwx5QxhY=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_139/escudo/de/13/16/008557e40b-8f0a-4bf5-b9a5-e01aa474f7de20190423201316",\
+            "url_escudo_svg": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/cartola_svg_139/escudo/de/13/16/008557e40b-8f0a-4bf5-b9a5-e01aa474f7de20190423201316",\
+            "time_id": 13935553,\
+            "nome": "Gorila Dortmund",\
+            "nome_cartola": "Danilo Oliveira",\
+            "slug": "gorila-dortmund",\
+            "facebook_id": 690002997709455,\
+            "foto_perfil": "https://graph.facebook.com/v2.9/690002997709455/picture?width=100&height=100",\
+            "assinante": false,\
+            "patrimonio": 113.86,\
+            "ranking": \{\
+                "rodada": 43,\
+                "mes": 43,\
+                "turno": 45,\
+                "campeonato": 45,\
+                "patrimonio": 43,\
+                "capitao": null\
+            \},\
+            "pontos": \{\
+                "rodada": 54.760009765625,\
+                "mes": 149.86000061035156,\
+                "turno": 374.30999755859375,\
+                "campeonato": 374.30999755859375,\
+                "capitao": 0\
+            \},\
+            "variacao": \{\
+                "mes": 0,\
+                "turno": -2,\
+                "campeonato": -2,\
+                "patrimonio": -1,\
+                "capitao": null\
+            \}\
+        \}\
+    ]\
+\}}

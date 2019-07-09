@@ -6,11 +6,10 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.data.repository.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.rcintra.cartolabackend.model.Grupo;
+import com.rcintra.cartolabackend.model.Time;
 
-public interface GrupoRepository extends Repository<Grupo, Integer> {
+public interface TimeRepository extends Repository<Time, Integer>{
 
-	@Transactional(readOnly = true)
-    Collection<Grupo> findAll() throws DataAccessException;
-	
+	 @Transactional(readOnly = true)
+	 Collection<Time> findAll() throws DataAccessException;
 }

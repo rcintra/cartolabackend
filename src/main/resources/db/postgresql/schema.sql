@@ -1,6 +1,0 @@
-DROP TABLE IF EXISTS grupo;
-
-CREATE TABLE IF NOT EXISTS grupo (
-	id SERIAL PRIMARY KEY,
-	nome varchar(255) NOT NULL
-);
