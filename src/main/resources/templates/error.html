@@ -1,0 +1,15 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml" lang="en">
+<head><title>Erro ocorrido</title></head>
+<body>
+	<div class="container">
+		<h1>Erro ocorrido!</h1>
+		<div class="alert alert-danger" role="alert">
+			<b>
+				[<span th:text="${status}">status</span>]
+				<span th:text="${error}">error</span>
+			</b>
+			<p th:text="${message}">message</p>
+		</div>
+	</div>
+</body>
+</html>
