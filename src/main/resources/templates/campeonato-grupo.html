@@ -11,10 +11,49 @@
     <!-- <link rel="stylesheet" href="../css/shards.min.css"> -->
 </head>
 
-  <body>
-
-    <p>Associar Grupos ao Campeonato<p>
-
+	<body class="container">
+		<div class="py-5" >
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="text-center">Associar Grupos ao Campeonato</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+    	<div class="">
+		    <div class="container">
+		      <div class="row">
+		        <div class="col-md-12 order-md-1">
+		          <h4 class="mb-3"><b>Campeonato</b></h4>		          
+		          <form class="needs-validation" name='f' th:object="${form}" method='POST'>		          
+		            <div class="row"></div>		            
+		            <div class="row">
+		              <div class="col-md-6 mb-3">
+		              	<label for="campeonato">Campeonato</label>
+		              	 <select class="custom-select d-block w-100" th:field="*{campeonatoId}">
+		                         <option value="">Escolher...</option>
+		                         <option th:each="c : ${campeonatos}"
+		                            th:value="${c.id}"
+		                            th:utext="${c.nome}"/>
+		                  </select>
+		              </div>
+		            </div>		           
+		            <hr class="mb-4">
+		            <div class="row">
+		            	<table>
+		            		<tr th:each="g: ${grupos}">
+						        <td th:text="${g.id}" />
+						        <td th:text="${g.nome}" />
+					    	</tr>
+					    </table>
+		            </div>
+		            <button class="btn btn-primary btn-lg btn-block" type="submit">Salvar</button>
+		          </form>
+		        </div>
+		      </div>
+		    </div>
+		</div>
   </body>
 
 </html>
