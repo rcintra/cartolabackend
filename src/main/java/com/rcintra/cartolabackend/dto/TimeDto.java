@@ -2,20 +2,25 @@ package com.rcintra.cartolabackend.dto;
 
 import com.rcintra.cartolabackend.model.Time;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
-@AllArgsConstructor
-public class TimeDto {
-	private Integer id;
-	private String nome;
+@Setter
+@Getter
+public class TimeDto extends BaseDto {
 	private String nomeTime;
 	private String slug;
 	private Integer timeId;
 	
+	public TimeDto(Integer id, String nome, String nomeTime, String slug, Integer timeId) {
+		super(id, nome);
+		this.nomeTime = nomeTime;
+		this.slug	  = slug;
+		this.timeId	  = timeId;
+	}
+	
 	public TimeDto(Time time) {
-		this(time.getId(), time.getNome(), time.getNomeTime(), time.getSlug(), time.getTimeId());
+		super(time.getId(), time.getNome());
 	}
 
 }

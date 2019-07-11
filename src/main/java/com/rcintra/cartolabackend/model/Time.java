@@ -12,6 +12,8 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 import com.rcintra.cartolabackend.model.json.TimeDeserializer;
 
 import lombok.AllArgsConstructor;
@@ -29,7 +31,7 @@ public class Time{
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
-	@NotBlank 
+	@NotBlank
 	@Column(name = "nome")
 	@Size(max=100)
     private String nome;

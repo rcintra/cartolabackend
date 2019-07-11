@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Table(name="grupo")
+@Table(name="campeonato")
 public class Campeonato {
 	
 	@Id

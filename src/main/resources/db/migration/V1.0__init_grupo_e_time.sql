@@ -1,10 +1,10 @@
 CREATE TABLE IF NOT EXISTS grupo (
-	id SERIAL PRIMARY KEY,
+    id INTEGER IDENTITY PRIMARY KEY,
 	nome varchar(100) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS time (
-	id SERIAL PRIMARY KEY,
+	id INTEGER IDENTITY PRIMARY KEY,
 	nome varchar(100) NOT NULL,
 	nome_time varchar(100),
 	slug varchar(50),

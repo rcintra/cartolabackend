@@ -1,0 +1,1 @@
+INSERT INTO campeonato (id, nome) values (1, '28 Campeonato');

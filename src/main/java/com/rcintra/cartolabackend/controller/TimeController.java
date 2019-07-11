@@ -14,6 +14,7 @@ import lombok.AllArgsConstructor;
 
 @Controller
 @AllArgsConstructor
+@RequestMapping("/time/")
 public class TimeController {
 
 	private TimeRepository timeRepository;
