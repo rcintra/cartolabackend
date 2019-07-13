@@ -1,0 +1,51 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+      
+<head>      
+
+	<div th:fragment="header-css">
+	        	        
+	        <link rel="stylesheet" type="text/css"
+              href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css" ></link>	       			
+	                
+	        <link rel="stylesheet" th:href="@{/css/main.css}"
+	              href="css/main.css" />
+	            
+	        <title>Cartola Championship 2019</title>      
+	</div>
+	
+</head>
+
+<body>	
+
+	<div th:fragment="header">
+	    <!-- Fixed navbar -->
+	    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	    	<div class="container">
+	    		<div class="navbar-header">
+			  		<a class="navbar-brand" href="#">Home</a>
+			  	</div>				
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item">
+				        <a class="nav-link" th:href="@{/campeonato/home}">Campeonatos</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" th:href="@{/grupo/home}">Grupos</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" th:href="@{/time/home}">Times</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" th:href="@{/grupo/grupo_time}">Grupo Time</a>
+				      </li>
+				    </ul>  
+			  </div>
+			</div>  
+		</nav>			
+	
+</body>
+
+</html>	
