@@ -27,8 +27,9 @@
 		</form>
 		
 		<div class="form-group" th:if="${grupo}">
-			 <label for="sel1">Grupo</label>
-			 <p th:text="${grupo.nome}"></p>
+		
+			<label for="sel1">Grupo</label>
+			<p th:text="${grupo.nome}"></p>
 			<form class="form-horizontal" th:object="${grupo}" th:action="@{/grupo/grupo_time/save}" method="POST" style="margin: 10px">
 				<input type="hidden" th:field="*{id}" />
 				<input type="hidden" th:field="*{nome}" />		

@@ -31,6 +31,7 @@ public class GrupoTimeController {
 	public ModelAndView grupoTime() {
 		
 		ModelAndView model = new ModelAndView("grupo/grupo_time");
+		model.getModel().remove("grupo");
 		model.addObject("grupos", grupoRepository.findAll());
 		
 		return model;
