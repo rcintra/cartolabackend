@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/header :: header-css" />
+</head>
+<body>
+
+<div th:replace="fragments/header :: header"/>
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1>Time</h1>        
+    </div>
+    
+	<div class="panel-body">
+		<div class="table-responsive">
+			<table class="table table-sm table-striped table-hover table-bordered">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Nome</th>
+						<th>Time</th>
+						<th>slug</th>
+						<th>Id do Time</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="t : ${times}">
+						<td th:text="${t.id}"></td>
+						<td th:text="${t.nome}"></td>
+						<td th:text="${t.nomeTime}"></td>
+						<td th:text="${t.slug}"></td>
+						<td th:text="${t.timeId}"></td>						
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+<!-- /.container -->
+
+<div th:replace="fragments/footer :: footer"/>
+
+</body>
+</html>

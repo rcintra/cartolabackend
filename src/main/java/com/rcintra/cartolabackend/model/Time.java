@@ -1,28 +1,16 @@
 package com.rcintra.cartolabackend.model;
 
-import java.util.List;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
-import org.hibernate.validator.constraints.NotEmpty;
-
 import com.rcintra.cartolabackend.model.json.TimeDeserializer;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@NoArgsConstructor
-@AllArgsConstructor
-@Data
 @Entity
 @Table(name="time")
 public class Time{
@@ -46,8 +34,7 @@ public class Time{
 	@Column(name="time_id")
 	private Integer timeId; // id do cartola
 	
-	@ManyToMany(mappedBy="times")
-	private List<Grupo> grupos;
+	public Time() {}
 	
 	public Time(String nome, String nomeTime, String slug, Integer timeId) {
 		this.nome = nome;
@@ -59,5 +46,45 @@ public class Time{
 	public Time(TimeDeserializer time) {
 		this(time.getNome_cartola(), time.getNome(), time.getSlug(), time.getTime_id());
 	}
-	
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getNomeTime() {
+		return nomeTime;
+	}
+
+	public void setNomeTime(String nomeTime) {
+		this.nomeTime = nomeTime;
+	}
+
+	public String getSlug() {
+		return slug;
+	}
+
+	public void setSlug(String slug) {
+		this.slug = slug;
+	}
+
+	public Integer getTimeId() {
+		return timeId;
+	}
+
+	public void setTimeId(Integer timeId) {
+		this.timeId = timeId;
+	}
+
 }

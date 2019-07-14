@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/header :: header-css" />
+</head>
+<body>
+
+<div th:replace="fragments/header :: header"/>
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1>Campeonato</h1>        
+    </div>
+    
+	<div class="panel-body">
+		<div class="table-responsive">
+			<table class="table table-sm table-striped table-hover table-bordered">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Nome</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="c : ${campeonatos}">
+						<td th:text="${c.id}"></td>
+						<td th:text="${c.nome}"></td>
+						<td>
+							<div class="btn-group pull-right">
+								<a class="btn btn-sm btn-primary" th:href="@{/campeonato/edit/{id}(id=${c.id})}" >Editar</a>
+							   	<a class="delete btn btn-sm btn-danger" th:href="@{/campeonato/delete/{id}(id=${c.id})}">Excluir</a>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="panel-footer">
+		<a class="btn btn-sm btn-success" th:href="@{add/}" >Adicionar</a>
+	</div>				
+
+</div>
+<!-- /.container -->
+
+<div th:replace="fragments/footer :: footer"/>
+
+</body>
+</html>

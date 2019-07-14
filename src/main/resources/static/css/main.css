@@ -9,3 +9,36 @@ h2{
 footer{
     margin-top:60px;
 }
+
+.subject-info-box-1,
+.subject-info-box-2 {
+  height: 200px;
+  float: left;
+  width: 40%;
+}
+
+.subject-info-box-1 select,
+.subject-info-box-2 select {
+  height: 200px;
+  padding: 0;
+}
+
+.subject-info-box-1 select option,
+.subject-info-box-2 select option {
+  padding: 4px 10px 4px 10px;
+}
+
+.subject-info-box-1 select option:hover,
+.subject-info-box-2 select option:hover {
+  background: #EEEEEE;
+}
+
+.subject-info-arrows {
+  float: left;
+  width: 15%;
+}
+
+.subject-info-arrows input {
+  width: 70%;
+  margin-bottom: 5px;
+}

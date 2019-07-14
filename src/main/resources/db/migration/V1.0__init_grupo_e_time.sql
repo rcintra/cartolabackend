@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS time (
 );
 
 CREATE TABLE IF NOT EXISTS grupo_time (
-	id_grupo int REFERENCES grupo (id) ON UPDATE CASCADE ON DELETE CASCADE,
-	id_time int REFERENCES time (id) ON UPDATE CASCADE ON DELETE CASCADE,
-	CONSTRAINT grupo_time_pkey PRIMARY KEY (id_grupo, id_time)
+	grupo_id int REFERENCES grupo (id) ON UPDATE CASCADE ON DELETE CASCADE,
+	time_id int REFERENCES time (id) ON UPDATE CASCADE ON DELETE CASCADE,
+	CONSTRAINT grupo_time_pkey PRIMARY KEY (grupo_id, time_id)
 );

@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/header :: header-css" />
+</head>
+<body>
+
+<div th:replace="fragments/header :: header"/>
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1>Grupo Time</h1>        
+    </div>
+    
+    <div class="panel-body">
+    	<form id="form" class="form-horizontal" th:action="@{/grupo/grupo_time/grupo}" method="GET" style="margin: 10px">    	    	
+		    <div class="form-group">
+			  <label for="sel1">Grupos:</label>
+				<select class="form-control" name="id_grupo" id="id_grupo">
+					<option>Selecione o grupo</option>
+					<option th:each="g : ${grupos}" 
+							th:value="${g.id}" 							
+							th:text="${g.nome}" />
+				</select>
+		    </div>
+		</form>
+		
+		<div class="form-group" th:if="${grupo}">
+			 <label for="sel1">Grupo</label>
+			 <p th:text="${grupo.nome}"></p>
+			<form class="form-horizontal" th:object="${grupo}" th:action="@{/grupo/grupo_time/save}" method="POST" style="margin: 10px">
+				<input type="hidden" th:field="*{id}" />
+				<input type="hidden" th:field="*{nome}" />		
+				
+				<div class="form-group">		  
+				  <div class="row style-select">
+					<div class="col-md-12">
+						<div class="subject-info-box-1">
+							<label>Associar Times ao Grupo</label>
+							<select class="form-control" id="lstBox1" multiple="multiple">
+								<option th:each="t : ${timesNaoAssociados}" 									
+										th:value="${{t}}" 							
+										th:text="${t.nomeTime}" />
+							</select>
+						</div>
+		
+						<div class="subject-info-arrows text-center">
+							<br /><br />
+							<input type="button" id="btnAllRight" value="Associar Todos" class="pAdd btn btn-primary btn-sm" /><br />
+							<input type="button" id="btnRight" value="Associar" class="btn btn-primary btn-sm" /><br />
+							<input type="button" id="btnLeft" value="Desassociar" class="btn btn-primary btn-sm" /><br />
+							<input type="button" id="btnAllLeft" value="Desassociar Todos" class="btn btn-primary btn-sm" />
+						</div>
+		
+						<div class="subject-info-box-2">
+							<label>Times Associados</label>
+							<select class="form-control" id="lstBox2" multiple="multiple" th:field="*{times}">
+								<option th:each="t : ${timesAssociados}" 									
+										th:value="${{t}}" 							
+										th:text="${t.nomeTime}" />
+							</select>
+						</div>
+		
+						<div class="clearfix"></div>
+					</div>
+				  </div>				 
+				</div>	
+				<div class="form-group row">
+					<button id="btnSave" type="submit" class="btn btn-sm btn-primary">Salvar</button>
+					<a th:href="@{/grupo/grupo_time}" class="btn btn-sm btn-default">Cancelar</a>
+				</div>				
+			</form>
+		</div>	
+    </div>
+    
+</div>
+<!-- /.container -->
+
+	<div th:replace="fragments/footer :: footer"/>
+
+
+	<script type="text/javascript">
+		$(function(){	  
+		  $("#id_grupo").change(function(){		  
+			  window.location.href=window.location.origin+'/grupo/grupo_time/grupo/'+this.value;
+		  });
+		});
+		$('#btnRight').click(function (e) {
+            $('select').moveToListAndDelete('#lstBox1', '#lstBox2');
+            e.preventDefault();
+        });
+
+        $('#btnAllRight').click(function (e) {
+            $('select').moveAllToListAndDelete('#lstBox1', '#lstBox2');
+            e.preventDefault();
+        });
+
+        $('#btnLeft').click(function (e) {
+            $('select').moveToListAndDelete('#lstBox2', '#lstBox1');
+            e.preventDefault();
+        });
+
+        $('#btnAllLeft').click(function (e) {
+            $('select').moveAllToListAndDelete('#lstBox2', '#lstBox1');
+            e.preventDefault();
+        });
+        
+        $('#btnSave').click(function (e) {
+            $('#lstBox2 option').prop('selected', true);            
+        });
+        
+	</script>
+
+	<script type="text/javascript"                
+        		src="/js/jquery.selectlistactions.js"></script>
+
+</body>
+</html>
