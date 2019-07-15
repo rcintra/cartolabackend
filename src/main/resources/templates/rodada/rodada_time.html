@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/header :: header-css" />
+</head>
+<body>
+
+<div th:replace="fragments/header :: header"/>
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1>Rodada Time</h1>        
+    </div>
+    
+	<div class="panel-body">
+		<div class="table-responsive">
+			<table class="table table-sm table-striped table-hover table-bordered">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Time</th>
+						<th>Rodada</th>
+						<th>Pontos</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="rt : ${rodadaTime}">
+						<td th:text="${rt.time.nome}"></td>
+						<td>
+							<table>
+								<tr th:each="r : ${rt.rodada}">
+									<td th:text="${r.pontos}"></td>
+								</tr>
+							</table>
+						</td>													
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="panel-footer">
+		<a class="btn btn-sm btn-success" th:href="@{/rodada/rodada_time/add/}" >Adicionar</a>
+	</div>				
+
+</div>
+<!-- /.container -->
+
+<div th:replace="fragments/footer :: footer"/>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/header :: header-css" />
+</head>
+<body>
+
+<div th:replace="fragments/header :: header"/>
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1>Cadastro de Rodada x Time</h1>        
+    </div>
+    
+	<div class="panel-body">
+		<form class="form-horizontal" th:object="${rodadaTimeForm}" th:action="@{/rodada/rodada_time/save}" method="POST" style="margin: 10px">
+			<div class="form-group">
+					<fieldset>
+					<div class="form-group row">
+						<div class="alert alert-danger" th:if="${#fields.hasAnyErrors()}">
+							<div th:each="detailedError : ${#fields.detailedErrors()}">
+								<span th:text="${detailedError.message}"></span>
+							</div>
+						</div>
+					</div> 									
+					<div class="form-group row">                                                      
+						<div class="col-md-4" th:classappend="${#fields.hasErrors('rodadaId')}? 'has-error'">
+						    <label>Rodada</label>
+						    <p th:text="${#numbers.formatDecimal(num,2,3)}"></p>
+						    
+						    <select class="form-control" th:field="*{rodadaId}">		
+						    	<option value=" " >Selecione a Rodada</option>				    
+								<option th:each="r : ${rodadas}" 
+										th:value="${r.id}" 							
+										th:text="${r.nome}" />
+							</select>
+						</div>
+					</div>
+					<div class="form-group row">                                                          
+						<div class="col-md-4" th:classappend="${#fields.hasErrors('timeId')}? 'has-error'">
+						    <label>Time</label>
+						    <select class="form-control" th:field="*{timeId}">		
+						    	<option value=" " >Selecione o Time</option>				    
+								<option th:each="t: ${times}" 
+										th:value="${t.id}" 							
+										th:text="${t.nomeTime}" />
+							</select>
+						</div>
+					</div>
+					<div class="form-group row">                                                          
+						<div class="col-md-4" th:classappend="${#fields.hasErrors('pontos')}? 'has-error'">
+						    <label>Pontos</label>
+						    <input type="text" class="form-control input-sm" th:field="*{pontos}" autofocus="autofocus" placeholder="Informe a qtd de pontos" maxlength="10"/>
+						</div>
+					</div>
+					
+				</fieldset>
+			</div>
+			<div class="form-group">
+				<button type="submit" class="btn btn-sm btn-primary">Salvar</button>
+				<a th:href="@{/rodada/rodada_time/home}" class="btn btn-sm btn-default">Cancelar</a>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- /.container -->
+
+<div th:replace="fragments/footer :: footer"/>
+
+</body>
+</html>

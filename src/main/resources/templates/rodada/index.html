@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/header :: header-css" />
+</head>
+<body>
+
+<div th:replace="fragments/header :: header"/>
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1>Rodada</h1>        
+    </div>
+    
+	<div class="panel-body">
+		<div class="table-responsive">
+			<table class="table table-sm table-striped table-hover table-bordered">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Nome</th>
+						<th>Numero</th>
+						<th>Rodada do Campeonato Brasileiro</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr th:each="r : ${rodadas}">
+						<td th:text="${r.id}"></td>
+						<td th:text="${r.nome}"></td>
+						<td th:text="${r.numero}"></td>
+						<td th:text="${r.rodada}"></td>
+						<td>
+							<div class="btn-group pull-right">
+								<a class="btn btn-sm btn-primary" th:href="@{/rodada/edit/{id}(id=${r.id})}" >Editar</a>
+							   	<a class="delete btn btn-sm btn-danger" th:href="@{/rodada/delete/{id}(id=${r.id})}">Excluir</a>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="panel-footer">
+		<a class="btn btn-sm btn-success" th:href="@{add/}" >Adicionar</a>
+	</div>				
+
+</div>
+<!-- /.container -->
+
+<div th:replace="fragments/footer :: footer"/>
+
+</body>
+</html>

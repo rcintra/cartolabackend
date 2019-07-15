@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -26,10 +27,12 @@ public class RodadaTime {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	
+	@NotNull
 	@ManyToOne
     @JoinColumn(name = "rodada_id")
 	private Rodada rodada;
 	
+	@NotNull
 	@ManyToOne
     @JoinColumn(name = "time_id")
 	private Time time;
