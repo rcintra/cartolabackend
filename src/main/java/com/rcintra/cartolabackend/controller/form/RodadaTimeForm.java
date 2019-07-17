@@ -4,22 +4,22 @@ import java.math.BigDecimal;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Pattern;
 
 import lombok.Data;
 
 @Data
 public class RodadaTimeForm {
 	
-	@NotNull
+	private Integer id;
+	
+	@NotNull(message="Por favor, selecione uma rodada")
 	private Integer rodadaId;
-	@NotNull
+	
+	@NotNull(message="Por favor, selecione um time")
 	private Integer timeId;
 	
-	@DecimalMin(value="0,0", inclusive=true, message="Os pontos tem que ser maior que zero")
-	@Pattern(regexp="^\\d{1,3}(?:\\.\\d{3})*,\\d{2}$")
+	@NotNull(message="Por favor, incluir um valor de pontos")
+	@DecimalMin(value="0.0", inclusive=true, message="Os pontos tem que ser maior que zero")
 	private BigDecimal pontos;
 	
-	
-
 }

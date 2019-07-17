@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -33,7 +34,7 @@ public class RodadaTimeController {
 	public ModelAndView rodadaTime() {
 		
 		ModelAndView model = new ModelAndView("rodada/rodada_time");
-		
+		model.addObject("rodadasTimes", repository.findAll());
 		
 		return model;
 	}
@@ -59,8 +60,39 @@ public class RodadaTimeController {
 			return add(form);
 		}
 		
-		//repository.save(rodadaTime);
+		repository.save(converterFormToEntity(form));
 		
 		return rodadaTime();
 	}
+	
+	@GetMapping("/rodada_time/delete/{id}")
+	public ModelAndView delete(@PathVariable("id") Integer id) {
+		repository.delete(id);
+		return rodadaTime();
+	}
+	
+	@GetMapping("/rodada_time/edit/{id}")
+	public ModelAndView edit(@PathVariable("id") Integer id) {
+		return add(converterEntityToForm(repository.findOne(id)));
+	}
+	
+	private RodadaTime converterFormToEntity(RodadaTimeForm form) {
+		RodadaTime r = new RodadaTime();
+		if (form.getId() != null)
+			r = repository.findOne(form.getId());
+		r.setRodada(rodadaRepository.findOne(form.getRodadaId()));
+		r.setTime(timeRepository.findOne(form.getTimeId()));
+		r.setPontos(form.getPontos());
+		return r;
+	}
+	
+	private RodadaTimeForm converterEntityToForm(RodadaTime rodadaTime) {
+		RodadaTimeForm form = new RodadaTimeForm();
+		form.setId(rodadaTime.getId());
+		form.setRodadaId(rodadaTime.getRodada().getId());
+		form.setTimeId(rodadaTime.getTime().getId());
+		form.setPontos(rodadaTime.getPontos());
+		return form;
+	}
+	
 }

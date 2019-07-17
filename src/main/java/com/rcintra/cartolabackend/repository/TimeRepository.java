@@ -22,6 +22,10 @@ public interface TimeRepository extends CrudRepository<Time, Integer>{
 	 
 	 default Time findByIdOrError(Integer id) {
 		 return findById(id).orElseThrow(EntityNotFoundException::new);
-	 } 
+	 }
+	 
+	 default Time findOne(Integer id) {
+		 return findById(id).orElseThrow(EntityNotFoundException::new);
+	 }
 	 
 }

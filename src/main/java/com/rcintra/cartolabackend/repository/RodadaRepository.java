@@ -11,4 +11,9 @@ public interface RodadaRepository extends CrudRepository<Rodada, Integer> {
 	default Rodada findByIdOrError(Integer id) {
 		return findById(id).orElseThrow(EntityNotFoundException::new);
 	}
+	
+	default Rodada findOne(Integer id) {
+		return findById(id).orElseThrow(EntityNotFoundException::new);
+	}
+	
 }

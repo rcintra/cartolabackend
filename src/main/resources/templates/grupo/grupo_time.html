@@ -14,6 +14,7 @@
     </div>
     
     <div class="panel-body">
+    	
     	<form id="form" class="form-horizontal" th:action="@{/grupo/grupo_time/grupo}" method="GET" style="margin: 10px">    	    	
 		    <div class="form-group">
 			  <label for="sel1">Grupos:</label>
@@ -26,18 +27,16 @@
 		    </div>
 		</form>
 		
-		<div class="form-group" th:if="${grupo}">
-		
-			<label for="sel1">Grupo</label>
-			<p th:text="${grupo.nome}"></p>
+		<div th:if="${grupo}">
 			<form class="form-horizontal" th:object="${grupo}" th:action="@{/grupo/grupo_time/save}" method="POST" style="margin: 10px">
+				<label for="sel1">Grupo</label>
+				<p th:text="${grupo.nome}"></p>
+			
 				<input type="hidden" th:field="*{id}" />
 				<input type="hidden" th:field="*{nome}" />		
 				
 				<div class="form-group">		  
-				  <div class="row style-select">
-					<div class="col-md-12">
-						<div class="subject-info-box-1">
+						<div class="col-xs-5 subject-info-box-1">
 							<label>Associar Times ao Grupo</label>
 							<select class="form-control" id="lstBox1" multiple="multiple">
 								<option th:each="t : ${timesNaoAssociados}" 									
@@ -64,8 +63,6 @@
 						</div>
 		
 						<div class="clearfix"></div>
-					</div>
-				  </div>				 
 				</div>	
 				<div class="form-group row">
 					<button id="btnSave" type="submit" class="btn btn-sm btn-primary">Salvar</button>

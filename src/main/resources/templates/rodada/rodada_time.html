@@ -10,7 +10,7 @@
 <div class="container">
 
     <div class="starter-template">
-        <h1>Rodada Time</h1>        
+        <h1>Rodada</h1>        
     </div>
     
 	<div class="panel-body">
@@ -26,19 +26,59 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr th:each="rt : ${rodadaTime}">
-						<td th:text="${rt.time.nome}"></td>
+					<tr th:each="r : ${rodadasTimes}">
+						<td th:text="${r.id}"></td>
+						<td th:text="${r.time.nome}"></td>
+						<td th:text="${r.rodada.nome}"></td>
+						<td th:text="${r.pontos}"></td>
 						<td>
-							<table>
-								<tr th:each="r : ${rt.rodada}">
-									<td th:text="${r.pontos}"></td>
-								</tr>
-							</table>
-						</td>													
+							<div class="btn-group pull-right">
+								<a class="btn btn-sm btn-primary" th:href="@{/rodada/rodada_time/edit/{id}(id=${r.id})}" >Editar</a>
+							   	<a class="delete btn btn-sm btn-danger" th:href="@{/rodada/rodada_time/delete/{id}(id=${r.id})}">Excluir</a>
+							</div>
+						</td>
 					</tr>
 				</tbody>
 			</table>
 		</div>
+		
+		<div class="table-responsive-sm">
+		
+			<table class="table table-sm">
+				<!-- <caption>Titulo de tabla</caption>  -->
+				<thead>
+					<tr>
+						<th scope="col" colspan="2"></th>						
+						<th scope="col" colspan="3">Fase de Grupos</th> <!-- colspan = Qtd de rodadas no colspan + coluna total -->
+					</tr>
+					<tr>
+						<th scope="col" colspan="2">#</th>
+						<th scope="col">Rodada 1</th>
+						<th scope="col">Rodada 2</th>
+						<th scope="col">Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>1</th>
+						<th>Time 1</th>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<th>2</th>
+						<th>Time 2</th>
+						<td>3</td>
+						<td>4</td>
+						<td>7</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			
+		</div>
+		
 	</div>
 	<div class="panel-footer">
 		<a class="btn btn-sm btn-success" th:href="@{/rodada/rodada_time/add/}" >Adicionar</a>

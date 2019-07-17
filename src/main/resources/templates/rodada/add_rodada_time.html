@@ -15,6 +15,7 @@
     
 	<div class="panel-body">
 		<form class="form-horizontal" th:object="${rodadaTimeForm}" th:action="@{/rodada/rodada_time/save}" method="POST" style="margin: 10px">
+			<input type="hidden" id="id" th:field="*{id}"/>
 			<div class="form-group">
 					<fieldset>
 					<div class="form-group row">
@@ -27,10 +28,8 @@
 					<div class="form-group row">                                                      
 						<div class="col-md-4" th:classappend="${#fields.hasErrors('rodadaId')}? 'has-error'">
 						    <label>Rodada</label>
-						    <p th:text="${#numbers.formatDecimal(num,2,3)}"></p>
-						    
 						    <select class="form-control" th:field="*{rodadaId}">		
-						    	<option value=" " >Selecione a Rodada</option>				    
+						    	<option value="" >Selecione a Rodada</option>				    
 								<option th:each="r : ${rodadas}" 
 										th:value="${r.id}" 							
 										th:text="${r.nome}" />
@@ -41,7 +40,7 @@
 						<div class="col-md-4" th:classappend="${#fields.hasErrors('timeId')}? 'has-error'">
 						    <label>Time</label>
 						    <select class="form-control" th:field="*{timeId}">		
-						    	<option value=" " >Selecione o Time</option>				    
+						    	<option value="" >Selecione o Time</option>				    
 								<option th:each="t: ${times}" 
 										th:value="${t.id}" 							
 										th:text="${t.nomeTime}" />

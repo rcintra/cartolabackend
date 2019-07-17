@@ -62,9 +62,16 @@ public class GrupoTimeController {
 	@PostMapping("/grupo_time/save")
 	public ModelAndView save(Grupo grupo) {
 		
+		ModelAndView model = new ModelAndView("grupo/grupo_time");
 		grupoRepository.save(grupo);
 		
-		return grupoTime();
+		model.addObject("timesAssociados", grupo.getTimes());
+		model.addObject("timesNaoAssociados", consultarTimesNaoAssociados(grupo.getTimes()));
+		model.addObject("grupos", grupoRepository.findAll());
+		model.addObject("grupo", grupo);
+		model.addObject("messageSuccess", "Grupo x Time alterado com sucesso.");
+		
+		return model;
 	}
 	
 }
